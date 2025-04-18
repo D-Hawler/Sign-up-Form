@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sign up</title>
+</head>
+<body>
+    <main>
+        <section class="logoArea">
+            <img src="./img/background.jpg" alt="background penguin" width="100%" height="100%">
+            <div class="logo">
+                <img src="./img/logo.png" alt="logo" width="100px" height="100px">
+                <div class="nameСompany">
+                    <h1>NaebaLovo</h1>
+                    <p>honest campaign</p>
+                </div>
+            </div>
+        </section>
+        <section class="formArea">
+            <article class="title">
+                <h1>
+                    This is not a real online service! You know you need something<br> like this in your life
+                    to help you realize your deepest dreams.<br> Sign up now to get started.
+                </h1><br>
+                <h2>
+                    You know you want to.
+                </h2>
+            </article>
+            <article class="formTitle">
+                <form action="https://httpbin.org/post" method="post">
+                    <fieldset class="inputArea">
+                        <h1>Let's do this!</h1>
+                        <fieldset class="fillField">
+                            <div>
+                                <label for="firstName">FIRST NAME</label><br>
+                                <input type="text" id="firstName" required>
+                            </div>
+                            <div>
+                                <label for="lastName">LAST NAME</label><br>
+                                <input type="text" id="lastName" required>
+                            </div>
+                        </fieldset>
+                        <fieldset class="fillField">
+                            <div>
+                                <label for="email">EMAIL</label><br>
+                                <input type="email" id="email" required>
+                            </div>
+                            <div>
+                                <label for="phoneNumber">PHONE NUMBER</label><br>
+                                <input type="tel" id="phoneNumber" required>
+                            </div>
+                        </fieldset>
+                        <fieldset class="fillField">
+                            <div>
+                                <label for="password">PASSWORD</label><br>
+                                <input type="password" id="password" required>
+                            </div>
+                            <div>
+                                <label for="confirmPassword">CONFIRM PASSWORD</label><br>
+                                <input type="password" id="confirmPassword" required>
+                            </div>
+                        </fieldset>
+                    </fieldset>
+                    <fieldset class="submitArea">
+                        <button type="submit">Create Account</button>
+                        <p>Already have an account? <a href="#">Log in</a></p>
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
