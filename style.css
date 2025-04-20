@@ -119,6 +119,12 @@ input {
     appearance: none;
     box-shadow: none;
 }
+input:invalid {
+    border-color: rgb(255, 0, 0);
+}
+input:valid {
+    border-color: rgb(0, 177, 0);
+}
 
 button {
     width: 250px;
